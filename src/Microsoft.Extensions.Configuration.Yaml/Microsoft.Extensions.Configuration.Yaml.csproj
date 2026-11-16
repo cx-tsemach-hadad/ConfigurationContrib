@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.0-preview2-final" />
-    <PackageReference Include="YamlDotNet" Version="4.2.1" />
+    <PackageReference Include="YamlDotNet" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
