@@ -30,8 +30,8 @@ namespace Microsoft.Extensions.Configuration.Yaml
         {
             var settings = new XmlReaderSettings
             {
-                DtdProcessing = DtdProcessing.Parse,
-                XmlResolver = new XmlUrlResolver()
+                DtdProcessing = DtdProcessing.Prohibit,
+                XmlResolver = null
             };
 
             var values = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
